@@ -1,0 +1,104 @@
+body {
+    background: #1F2937;
+    color: white;
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+
+}
+
+.top {
+    display: flex;
+    padding: 0 100px;
+    gap: 52%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 100px;
+}
+
+.right-links {
+    font-size: 16px;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.Tosin {
+    height: 250px;
+    width: 400px;
+    padding: 0 50px;
+}
+
+button {
+    background: palevioletred;
+    height: 50px;
+    border: solid #E5E7EB;
+}
+
+
+.welcome {
+    width: 70%;
+    font: #E5E7EB;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro {
+    width: 50%;
+}
+
+.middle {
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px 20px;
+    height: 400px;
+}
+
+.box {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.image {
+    width: 200px;
+    height: 170px;
+    border-radius: 10%;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
