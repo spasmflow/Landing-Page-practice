@@ -1,12 +1,14 @@
 body {
-    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: white;
     margin: 0;
 }
 
 .logo {
     height: 50px;
-    width: 100px;
+    width: 90px;
 }
 
 .header {
@@ -14,19 +16,19 @@ body {
     flex-direction: column;
     color: white;
     margin: 0;
-
+    background-color: #1F2937;
 }
 
 .top {
     display: flex;
-    padding: 0 100px;
+    padding: 20px 100px;
     gap: 52%;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -51,7 +53,7 @@ a:link {
 
 .Tosin {
     height: 250px;
-    width: 400px;
+    width: 300px;
     padding: 0 50px;
 }
 
@@ -59,6 +61,8 @@ button {
     background: palevioletred;
     height: 50px;
     border: solid #E5E7EB;
+    border-radius: 15px;
+    width: 150px;
 }
 
 
@@ -101,4 +105,44 @@ button {
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color:#1F2937;
+    padding: 50px 200px;
+    font-size: 30px;
+}
+
+.para {
+    width: 450px;
+}
+
+.connect {
+    padding: 30px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 200px;
+    background: palevioletred;
+    border-radius: 20px;
+}
+
+b {
+    font-size: 36px;
+}
+
+.b {
+    color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
 }
